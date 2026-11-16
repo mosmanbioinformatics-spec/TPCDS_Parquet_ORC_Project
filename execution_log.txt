@@ -1,0 +1,220 @@
+Selected verbatim excerpts from the Colab execution on 14 November 2026. Command paths, progress-bar lines and internal comparison output are omitted. The unabridged log is retained separately in the original results archive.
+
+Cloning into '/content/TPCDS/work/data/tpcds_sf1'...
+Updating files:  41% (7/17)
+Updating files:  47% (8/17)
+Updating files:  52% (9/17)
+Updating files:  58% (10/17)
+Updating files:  64% (11/17)
+Updating files:  70% (12/17)
+Updating files:  76% (13/17)
+Updating files:  82% (14/17)
+Updating files:  88% (15/17)
+Updating files:  94% (16/17)
+Updating files: 100% (17/17)
+Updating files: 100% (17/17), done.
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.provenance'
+SF1: b41f5010514222d94e50127762868aec11f6e4c5
+customer: 13,210,282 bytes
+item: 5,051,899 bytes
+store: 3,155 bytes
+date_dim: 10,317,438 bytes
+store_sales: 388,445,409 bytes
+[0.003s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.003s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/14 21:55:27 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/11/14 21:55:36 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+SF1: customer
+SF1: item
+SF1: store
+26/11/14 21:56:09 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+SF1: date_dim
+SF1: store_sales
+[0.000s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/14 21:57:36 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/11/14 21:57:37 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+SF1 types: store_sales
+SF1 types: customer
+SF1 types: item
+SF1 types: date_dim
+SF1 types: store
+    data_type  parquet_data_bytes  orc_data_bytes  columns smaller_format
+         Date              296843            5737        5            ORC
+FloatingPoint           119386692       148346251       15        Parquet
+      Integer            30687837        25027579       53            ORC
+       String             5352992         5235930       47            ORC
+[0.001s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/14 22:00:08 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/11/14 22:00:09 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+           variant  row_count  column_count  parquet_data_bytes  parquet_dir_bytes  orc_data_bytes  orc_dir_bytes
+ original_inferred     100000            19             5553790            5597206         5367091        5409051
+drop_terminal_null     100000            18             5553068            5596480         5366848        5408808
+Cloning into '/content/TPCDS/work/data/tpcds_sf2'...
+Updating files:  41% (13/31)
+Updating files:  45% (14/31)
+Updating files:  48% (15/31)
+Updating files:  51% (16/31)
+Updating files:  54% (17/31)
+Updating files:  58% (18/31)
+Updating files:  61% (19/31)
+Updating files:  64% (20/31)
+Updating files:  67% (21/31)
+Updating files:  70% (22/31)
+Updating files:  74% (23/31)
+Updating files:  77% (24/31)
+Updating files:  80% (25/31)
+Updating files:  83% (26/31)
+Updating files:  87% (27/31)
+Updating files:  90% (28/31)
+Updating files:  93% (29/31)
+Updating files:  96% (30/31)
+Updating files: 100% (31/31)
+Updating files: 100% (31/31), done.
+tar: Ignoring unknown extended header keyword 'LIBARCHIVE.xattr.com.apple.provenance'
+SF2: eb40d5fe5ee2731bcb054bcdf2f63500a8b5c8bf
+customer: 19,083,567 bytes
+item: 7,316,868 bytes
+store: 5,889 bytes
+date_dim: 10,317,438 bytes
+store_sales: 784,026,485 bytes
+[0.001s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/14 22:03:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/11/14 22:03:10 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+SF2: customer
+SF2: item
+SF2: store
+26/11/14 22:03:43 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+SF2: date_dim
+SF2: store_sales
+Cloning into '/content/TPCDS/work/data/tpcds_sf5'...
+Updating files:   7% (6/77)
+Updating files:   9% (7/77)
+Updating files:  10% (8/77)
+Updating files:  11% (9/77)
+Updating files:  12% (10/77)
+Updating files:  14% (11/77)
+Updating files:  15% (12/77)
+Updating files:  16% (13/77)
+Updating files:  18% (14/77)
+Updating files:  19% (15/77)
+Updating files:  20% (16/77)
+Updating files:  22% (17/77)
+Updating files:  23% (18/77)
+Updating files:  24% (19/77)
+Updating files:  25% (20/77)
+Updating files:  27% (21/77)
+Updating files:  28% (22/77)
+Updating files:  29% (23/77)
+Updating files:  31% (24/77)
+Updating files:  32% (25/77)
+Updating files:  33% (26/77)
+Updating files:  35% (27/77)
+Updating files:  36% (28/77)
+Updating files:  37% (29/77)
+Updating files:  38% (30/77)
+Updating files:  40% (31/77)
+Updating files:  41% (32/77)
+Updating files:  42% (33/77)
+Updating files:  44% (34/77)
+Updating files:  45% (35/77)
+Updating files:  46% (36/77)
+Updating files:  48% (37/77)
+Updating files:  49% (38/77)
+Updating files:  50% (39/77)
+Updating files:  51% (40/77)
+Updating files:  53% (41/77)
+Updating files:  54% (42/77)
+Updating files:  55% (43/77)
+Updating files:  57% (44/77)
+Updating files:  58% (45/77)
+Updating files:  59% (46/77)
+Updating files:  61% (47/77)
+Updating files:  62% (48/77)
+Updating files:  63% (49/77)
+Updating files:  64% (50/77)
+Updating files:  66% (51/77)
+Updating files:  67% (52/77)
+Updating files:  68% (53/77)
+Updating files:  70% (54/77)
+Updating files:  71% (55/77)
+Updating files:  72% (56/77)
+Updating files:  74% (57/77)
+Updating files:  75% (58/77)
+Updating files:  76% (59/77)
+Updating files:  77% (60/77)
+Updating files:  79% (61/77)
+Updating files:  80% (62/77)
+Updating files:  81% (63/77)
+Updating files:  83% (64/77)
+Updating files:  84% (65/77)
+Updating files:  85% (66/77)
+Updating files:  87% (67/77)
+Updating files:  88% (68/77)
+Updating files:  89% (69/77)
+Updating files:  90% (70/77)
+Updating files:  92% (71/77)
+Updating files:  93% (72/77)
+Updating files:  94% (73/77)
+Updating files:  96% (74/77)
+Updating files:  97% (75/77)
+Updating files:  98% (76/77)
+Updating files: 100% (77/77)
+Updating files: 100% (77/77), done.
+SF5: be462d01193c748652d8b21efff1910faad4edb0
+customer: 36,904,194 bytes
+item: 15,208,886 bytes
+store: 13,683 bytes
+date_dim: 10,317,438 bytes
+store_sales: 1,981,245,936 bytes
+[0.002s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.002s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup memory controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+[0.001s][warning][os,container] Cgroup cpu controller path at '/sys/fs/cgroup' seems to have moved to '/../../jupyter-children', detected limits won't be accurate
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/14 22:12:25 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/11/14 22:12:26 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+SF5: customer
+SF5: item
+SF5: store
+26/11/14 22:13:05 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+SF5: date_dim
+SF5: store_sales
+ scale_factor  raw_bytes  parquet_directory_bytes  orc_directory_bytes  parquet_ratio  orc_ratio  parquet_savings_vs_orc_pct
+            1  417028183                156948594            180049956       0.376350   0.431745                   12.830529
+            2  820750247                312452896            356619953       0.380692   0.434505                   12.384909
+            5 2043690137                773585169            902568682       0.378524   0.441637                   14.290714
+    data_type observed_smaller_format directional_comparison
+         Date                     ORC         Not comparable
+FloatingPoint                 Parquet             Consistent
+      Integer                     ORC             Consistent
+       String                     ORC              Different

@@ -1,0 +1,5 @@
+data_type,parquet_data_bytes,orc_data_bytes,columns,smaller_format
+Date,296843,5737,5,ORC
+FloatingPoint,119386692,148346251,15,Parquet
+Integer,30687837,25027579,53,ORC
+String,5352992,5235930,47,ORC

@@ -1,0 +1,3 @@
+variant,row_count,column_count,parquet_data_bytes,parquet_dir_bytes,orc_data_bytes,orc_dir_bytes
+original_inferred,100000,19,5553790,5597206,5367091,5409051
+drop_terminal_null,100000,18,5553068,5596480,5366848,5408808

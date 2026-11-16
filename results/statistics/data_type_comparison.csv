@@ -1,0 +1,5 @@
+data_type,parquet_data_bytes,orc_data_bytes,columns,observed_smaller_format,savings_pct,paper_smaller_format,directional_comparison
+Date,296843,5737,5,ORC,98.06732852046368,Not separately reported,Not comparable
+FloatingPoint,119386692,148346251,15,Parquet,19.52159815619473,Parquet,Consistent
+Integer,30687837,25027579,53,ORC,18.444630033716614,ORC,Consistent
+String,5352992,5235930,47,ORC,2.186851764396436,Parquet,Different

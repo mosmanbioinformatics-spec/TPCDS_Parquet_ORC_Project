@@ -1,0 +1,23 @@
+{
+  "scale_factor": 1,
+  "dataset_repository": "https://github.com/alamb/tpcds-data.git",
+  "dataset_commit": "b41f5010514222d94e50127762868aec11f6e4c5",
+  "tables": [
+    "customer",
+    "item",
+    "store",
+    "date_dim",
+    "store_sales"
+  ],
+  "python": "3.13.18",
+  "pandas": "2.2.3",
+  "spark": "4.0.5",
+  "cpu_count": 2,
+  "java": "21.0.12.1",
+  "spark_master": "local[*]",
+  "os": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "codec": "snappy",
+  "schema": "inferred",
+  "full_content_checked": false,
+  "memory": "MemTotal:       13286924 kB"
+}
